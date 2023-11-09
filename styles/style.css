@@ -1,0 +1,108 @@
+/* Remove OR delete all by default margin & padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+/* ======================================================
+                     Navbar styles
+   ====================================================== */
+.nav-cointainer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #9b9898;
+    color: white;
+    padding: 20px;
+
+}
+
+.items{
+    display: flex;
+    list-style: none;
+}
+
+.item{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 15px;
+
+}
+
+/* ======================================================
+                     Banner styles
+   ====================================================== */
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background: url("/asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+/* ===== Banner-titie styles ===== */
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+/* ===== Banner title "Digital" word styles ===== */
+.primary{
+    color: rgb(240, 12, 12);
+}
+/* ===== Banner description styles ===== */
+.banner-description{
+    width: 50%;
+    margin: auto;
+    font-size: 22px;
+    padding: 20px;
+}
+
+/* ======================================================
+      Two different way you can styles Banner buttons
+   ====================================================== */
+
+/* ===== Banner buttons styles 1st way */
+.btn{
+    padding: 15px 40px;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.btn-discover{
+    background-color: rgb(240, 12, 12);
+    color: white;
+}
+
+.btn-hire{
+    color: rgb(240, 12, 12);
+}
+
+/* ===== Banner buttons styles 2nd way */
+/* .btn-discover{
+    padding: 15px 40px;
+    background-color: rgb(240, 12, 12);
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+} */
+
+/* .btn-hire{
+    padding: 15px 40px; */
+    /* background-color: rgb(240, 12, 12); */
+    /* border: none;
+    color: rgb(240, 12, 12);
+    font-size: 18px;
+    margin: 5px;
+} */
+
