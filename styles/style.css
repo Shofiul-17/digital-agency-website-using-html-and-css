@@ -9,7 +9,7 @@ body{
 }
 
 /* ======================================================
-                     Navbar styles
+                     Navbar section styles
    ====================================================== */
 .nav-cointainer{
     display: flex;
@@ -34,7 +34,7 @@ body{
 }
 
 /* ======================================================
-                     Banner styles
+                     Banner section styles
    ====================================================== */
 .banner-container{
     width: 100%;
@@ -106,3 +106,73 @@ body{
     margin: 5px;
 } */
 
+/* ======================================================
+             service-container section styles
+   ====================================================== */
+.service-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8));
+    background-blend-mode: overlay;
+    color: white;
+    padding: 45px;
+}
+
+/* ===== Service button styles ===== */
+.btn-service{
+    border-radius: 25px;
+    color: #808080;
+}
+/* .btn-service{
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    color: #808080;
+    font-size: 18px;
+} */
+
+/* ===== service-title styles ===== */
+.service-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #becfd0;
+    padding: 10px;
+}
+
+/* ===== service-description styles ===== */
+.service-description{
+    width: 50%;
+    /* margin: auto; */
+    font-size: 22px;
+    color: #becfd0;
+    padding: 10px;
+}
+
+/* ===== Unordered list items styles ===== */
+ul {
+    list-style-type: decimal;
+    color: #becfd0;
+    padding: 30px;
+}
+
+/* ===== author-container styles ===== */
+.author-container{
+    display: flex;
+}
+
+/* ===== More button styles ===== */
+.btn-more{
+    border-radius: 25px;
+    color: rgb(240, 12, 12);
+}
+/* .btn-more{
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    color: rgb(240, 12, 12);
+    font-size: 18px;
+} */
+
+.author-detailes{
+    display: flex;
+}
