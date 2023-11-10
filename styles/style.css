@@ -1,4 +1,4 @@
-/* Remove OR delete all by default margin & padding */
+/* ===== Remove OR delete all by default margin & padding ===== */
 *{
     margin: 0;
     padding: 0;
@@ -14,11 +14,20 @@ body{
 .nav-cointainer{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #9b9898;
+    width: 100%;
     color: white;
-    padding: 20px;
+    /* padding: 10px; */
 
 }
+
+/* .logo-container{
+    padding: 10px;
+}
+.manu-container{
+    padding: 10px;
+} */
 
 .items{
     display: flex;
@@ -27,9 +36,10 @@ body{
 
 .item{
     font-size: 22px;
-    font-weight: 700;
-    padding: 10px;
-    margin-right: 15px;
+    font-weight: 800;
+    color: white;
+    /* padding: 10px; */
+    margin-right: 25px;
 
 }
 
@@ -70,7 +80,7 @@ body{
       Two different way you can styles Banner buttons
    ====================================================== */
 
-/* ===== Banner buttons styles 1st way */
+/* ===== Banner buttons styles 1st way ===== */
 .btn{
     padding: 15px 40px;
     border: none;
@@ -87,7 +97,7 @@ body{
     color: rgb(240, 12, 12);
 }
 
-/* ===== Banner buttons styles 2nd way */
+/* ===== Banner buttons styles 2nd way ===== */
 /* .btn-discover{
     padding: 15px 40px;
     background-color: rgb(240, 12, 12);
@@ -107,15 +117,26 @@ body{
 } */
 
 /* ======================================================
-             service-container section styles
+             service-container styles
    ====================================================== */
 .service-container{
+    display: flex;
     width: 100%;
     height: 100vh;
     background-image: url("/asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8));
     background-blend-mode: overlay;
     color: white;
-    padding: 45px;
+    /* padding: 45px; */
+    padding-top: 65px;
+}
+
+/* ========== Service left section styles ==========
+   ==========--------------------------------------- */
+.service-left-container{
+    width: 50%;
+    padding: 125px 0 0 40px;
+    /* margin-left: 45px;
+    margin-right: 45px; */
 }
 
 /* ===== Service button styles ===== */
@@ -141,7 +162,7 @@ body{
 
 /* ===== service-description styles ===== */
 .service-description{
-    width: 50%;
+    width: 80%;
     /* margin: auto; */
     font-size: 22px;
     color: #becfd0;
@@ -158,12 +179,15 @@ ul {
 /* ===== author-container styles ===== */
 .author-container{
     display: flex;
+    align-items: center;
+    padding: 10px;
 }
 
 /* ===== More button styles ===== */
 .btn-more{
     border-radius: 25px;
     color: rgb(240, 12, 12);
+    margin-left: 15px;
 }
 /* .btn-more{
     padding: 15px 35px;
@@ -173,6 +197,51 @@ ul {
     font-size: 18px;
 } */
 
+/* ===== author-detailes styles ===== */
 .author-detailes{
     display: flex;
+    align-items: center;
+    padding-right: 100px;
+    border-right: 1px solid rgb(240, 12, 12);
 }
+
+/* ===== author-img styles ===== */
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.author-name{
+}
+
+/* ========== Service right section styles ==========
+   ==========--------------------------------------- */
+/* ========== services logo section styles ========== */
+.services{
+    display: flex;
+}
+.service-1, .service-2, .service-3, .service-4{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 50px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+
+.service-logo{
+    width: 50%;
+}
+.service-logo-title{
+    padding-top: 20px;
+}
+
+.hide{
+    display: none;
+}
+
