@@ -26,11 +26,13 @@
     padding: 10px;
 } */
 
+/* ===== Navbar items styles ===== */
 .items{
     display: flex;
     list-style: none;
 }
 
+/* ===== Navbar item styles ===== */
 .item{
     font-size: 22px;
     font-weight: 800;
@@ -65,6 +67,7 @@
 .primary{
     color: rgb(245, 44, 44);
 }
+
 /* ===== Banner description styles ===== */
 .banner-description{
     width: 50%;
@@ -74,10 +77,10 @@
 }
 
 /* ======================================================
-      Two different way you can styles Banner buttons
+      NOTE: Two different way you can styles buttons
    ====================================================== */
 
-/* ===== Banner buttons styles 1st way ===== */
+/* ===== 1st way - Make a common button styles to use all the buttons in your website  ===== */
 .btn{
     padding: 15px 40px;
     border: none;
@@ -85,16 +88,19 @@
     margin: 5px;
 }
 
+/* ===== Discover more button style ===== */
 .btn-discover{
     background-color: rgb(245, 44, 44);
     color: white;
 }
 
+/* ===== Hire us now button style ===== */
 .btn-hire{
     color: rgb(245, 44, 44);
 }
 
-/* ===== Banner buttons styles 2nd way ===== */
+/* ===== 2nd way - Banner buttons styles (You can style your button separately) ===== */
+/* ===== Discover more button style ===== */
 /* .btn-discover{
     padding: 15px 40px;
     background-color: rgb(240, 12, 12);
@@ -104,6 +110,7 @@
     margin: 5px;
 } */
 
+/* ===== Hire us now button style ===== */
 /* .btn-hire{
     padding: 15px 40px; */
     /* background-color: rgb(240, 12, 12); */
@@ -114,9 +121,10 @@
 } */
 
 /* ======================================================
-             service-container styles
+                  Service section styles
    ====================================================== */
-.service-container{
+/* ===== Service-container styles ===== */
+   .service-container{
     display: flex;
     width: 100%;
     height: 100vh;
@@ -136,11 +144,13 @@
     margin-right: 45px; */
 }
 
-/* ===== Service button styles ===== */
+/* ===== Service list button styles ===== */
 .btn-service{
     border-radius: 25px;
     color: #808080;
 }
+
+/* ===== Service list button styles ===== */
 /* .btn-service{
     padding: 15px 35px;
     border-radius: 25px;
@@ -166,7 +176,7 @@
     padding: 10px;
 }
 
-/* ===== Unordered list items styles ===== */
+/* ===== Service ul list items styles ===== */
 ul {
     list-style-type: decimal;
     color: #becfd0;
@@ -188,21 +198,22 @@ ul {
     padding: 10px;
 }
 
-/* ===== author-detailes styles ===== */
-.author-detailes{
+/* ===== author-details styles ===== */
+.author-details{
     display: flex;
     align-items: center;
     padding-right: 100px;
     border-right: 1px solid rgb(245, 44, 44);
 }
 
-/* ===== More button styles ===== */
+/* ===== More details button styles ===== */
 .btn-more{
     border-radius: 25px;
     color: rgb(245, 44, 44);
     margin-left: 15px;
 }
 
+/* ===== More details button styles ===== */
 /* .btn-more{
     padding: 15px 35px;
     border-radius: 25px;
@@ -218,6 +229,7 @@ ul {
     display: flex;
 }
 
+/* ========== services logo container styles ========== */
 .service-1, .service-2, .service-3, .service-4{
     width: 200px;
     height: 200px;
@@ -231,10 +243,12 @@ ul {
     /* margin-right: 15px; */
 }
 
+/* ========== services logo styles ========== */
 .service-logo{
     width: 50%;
 }
 
+/* ========== services logo title styles ========== */
 .service-logo-title{
     padding-top: 20px;
 }
@@ -242,6 +256,7 @@ ul {
 /* ======================================================
              Make Appointment section styles
    ====================================================== */
+/* ===== Appointment container styles ===== */
 .appointment-section{
     display: flex;
     /* justify-content: center; */
@@ -267,22 +282,24 @@ ul {
     padding: 10px;
 }
 
-   /* ===== Phone icon styles */
+/* ===== Phone icon styles ===== */
 .phone-icon{
     width: 100px;
     padding: 15px;
 }
 
+/* ===== GET A FREE CONSULTATION styles ===== */
 .get-a-free{
     font-size: xx-small;
 }
 
+/* ===== Phone number styles ===== */
 .phone-number{
     font-size: 28px;
 }
 
-   /* ========== Appointment-center-section styles ==========
-   ==========--------------------------------------- */
+/* ========== Appointment center description section styles ==========
+   ==========-----------------------------------========== */
 .appointment-center-section{
     width: 47%;
     /* padding-left: 8px; */
@@ -291,19 +308,92 @@ ul {
 
 }
 
-   /* ========== Appointment-right-section styles ==========
-   ==========--------------------------------------- */
+/* ========== Appointment right button section styles ==========
+   ==========----------------------------------========== */
+/* ===== Make Appointment button styles ===== */
 /* .btn-appointment{ 
     font-size: x-small;
     border-radius: 25px;
     background-color: white;
 } */
+
+/* ===== make Appointment button styles ===== */
 .btn-appointment{ 
     padding: 15px 40px;
     /* font-size: x-small; */
     border-radius: 25px;
     border: none;
     background-color: white;
+}
+
+
+/* ======================================================
+                   Blogs section styles
+   ====================================================== */
+
+/* ========== Blogs-heading-section styles ==========
+   ==========------------------------------========== */
+.blogs-heading-section{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ===== Blogs title styles ===== */
+.blogs-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* ===== Blogs-heading-description styles ===== */
+.blogs-heading-description{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+}
+
+/* ========== Blogs-cards styles ==========
+   ==========--------------------========== */
+.blogs-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 35px;
+    padding: 30px;
+}
+
+/* ===== Card styles ===== */
+.card{
+    width: 350px;
+    height: 430px;
+    background: white;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+
+/* ===== Card-img styles ===== */
+.card-img{
+    width: 350px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+/* ===== Card-text styles ===== */
+.card-text{
+    padding: 15px;
+}
+
+/* ===== Card-title styles ===== */
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+}
+
+/* ===== Card-description styles ===== */
+.card-description{
+    font-size: 18px;
+    color: rgb(76, 72, 72);
+    padding-top: 15px;
 }
 
 
