@@ -369,6 +369,9 @@ ul {
     box-shadow: 5px 5px 10px gray;
     border-radius: 10px;
 }
+/* .card:hover{
+    color: gray;
+} */
 
 /* ===== Card-img styles ===== */
 .card-img{
@@ -419,15 +422,9 @@ footer{
     width: 75%;
     height: 60vh;
     margin: 0 auto;
-    
-    /* border-bottom: 1px solid gray; */
+    /* ========== Border styles ========== */
+    border-bottom: 1px solid gray;
 }
-
-/* ===== hyperlink OR all footer <a> tag styles ===== */
-/* a{
-    text-decoration: none;
-    color: white;
-} */
 
 /* ===== Logo box styles ===== */
 .logo-box{
@@ -440,42 +437,38 @@ width: 25%;
     width: 180px;
 }
 
+/* ===== Social media icons styles ===== */
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
+
 /* ========== All Footer title styles ==========
    ==========-------------------------========== */
 .footer-title{
     padding-bottom: 30px;
 }
 
-
-.fa-brands{
-    margin: 10px;
-    font-size:20px;
-}
-
+/* ===== Location pin & phone icons styles ===== */
 .fa-solid{
     margin-right: 7px;
 }
 
-hr{
+/* ===== Footer Hyperlink OR all footer <a> tag styles ===== */
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+/* ========== Border styles ========== */
+/* hr{
     width: 75%;
     margin: auto;
-}
+} */
+
 .copyright{
     text-align: center;
     padding: 15px;
-}
-
-
-
-
-
-
-
-
-
-/* ===== Logo box description styles ===== */
-.logo-box-description{
-
 }
 
 /* ===== Logo box icons styles ===== */
@@ -483,40 +476,7 @@ hr{
     margin-top:20px;
 }
 
-/* ========== Useful links styles ==========
-   ==========---------------------========== */
-.useful-links{
-    /* display: flex;
-    flex-direction: column;
-    width: 25%;
-    padding-left: 0px; */
-}
 
-
-.useful-link-title{
-    /* padding-bottom: 30px; */
-}
-
-/* ========== Supports styles ==========
-   ==========-----------------========== */
-.supports{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* width: 25%; */
-}
-
-
-.support-title{
-    /* padding-bottom: 30px; */
-}
-
-/* ========== Contact Information styles ==========
-   ==========----------------------------========== */
-.contact-info{
-    /* display: flex;
-    flex-direction: column;
-    width: 25%; */
-}
 
 .hide{
     display: none;
