@@ -397,6 +397,126 @@ ul {
 }
 
 
+/* ======================================================
+                   Footer section styles
+   ====================================================== */
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url("/asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.867), rgba(0, 0, 0, 0.929));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+}
+
+/* ========== Footer-container styles ==========
+   ==========------------------------------========== */
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    
+    /* border-bottom: 1px solid gray; */
+}
+
+/* ===== hyperlink OR all footer <a> tag styles ===== */
+/* a{
+    text-decoration: none;
+    color: white;
+} */
+
+/* ===== Logo box styles ===== */
+.logo-box{
+width: 25%;
+/* padding-right: 30px; */
+}
+
+/* ===== Logo box img styles ===== */
+.logo-box img{
+    width: 180px;
+}
+
+/* ========== All Footer title styles ==========
+   ==========-------------------------========== */
+.footer-title{
+    padding-bottom: 30px;
+}
+
+
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
+
+.fa-solid{
+    margin-right: 7px;
+}
+
+hr{
+    width: 75%;
+    margin: auto;
+}
+.copyright{
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+/* ===== Logo box description styles ===== */
+.logo-box-description{
+
+}
+
+/* ===== Logo box icons styles ===== */
+.logo-box-icons{
+    margin-top:20px;
+}
+
+/* ========== Useful links styles ==========
+   ==========---------------------========== */
+.useful-links{
+    /* display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding-left: 0px; */
+}
+
+
+.useful-link-title{
+    /* padding-bottom: 30px; */
+}
+
+/* ========== Supports styles ==========
+   ==========-----------------========== */
+.supports{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* width: 25%; */
+}
+
+
+.support-title{
+    /* padding-bottom: 30px; */
+}
+
+/* ========== Contact Information styles ==========
+   ==========----------------------------========== */
+.contact-info{
+    /* display: flex;
+    flex-direction: column;
+    width: 25%; */
+}
 
 .hide{
     display: none;
